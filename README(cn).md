@@ -47,27 +47,27 @@ pip install -r requirements.txt
 
 **重要说明：** 由于GitHub的文件大小限制，数据和模型文件未包含在仓库中。您需要单独下载或生成它们：
 
-### 数据集获取
+### 数据获取
 本项目使用的数据集可通过我们的共享网盘获取：
-- 链接：[在此处插入您的网盘链接]
+- 链接：[[IR project](https://bhpan.buaa.edu.cn/link/AAD502EC85886C45818CF89E6957360695)]，提取码：nvbh
 - 内容：
-  - BEIR基准数据集
-  - 处理后的医疗领域数据集
-  - Bi-Encoder模型的训练数据
+  - BEIR基准数据集`datasets.zip`
+  - Bi-Encoder模型的训练数据`data.zip`
+  - 结果数据和分析图表`results.zip`
 
-下载后，请将数据集放置在以下文件夹中：
+下载后，请将解压文件并放置在以下文件夹中：
 ```
-datasets/
-├── beir_datasets/
-├── medical_domain/
-└── training_data/
+IR project/
+├── datasets/
+├── data/
+└── results/
 ```
 
 或者，您可以使用 `download_datasets.py` 下载部分公共数据集。
 
 ### 模型获取
 训练好的模型可通过以下方式获取：
-- 链接：[在此处插入您的网盘链接]
+- 链接：[[IR project](https://bhpan.buaa.edu.cn/link/AAD502EC85886C45818CF89E6957360695)]，提取码：nvbh
 - 内容：
   - 微调后的医疗检索模型（`models/finetuned-medical-retriever/`）
   - 不同训练阶段的检查点文件
