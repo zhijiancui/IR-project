@@ -49,18 +49,18 @@ pip install -r requirements.txt
 
 ### Dataset Access
 The datasets used in this project can be accessed via our shared cloud drive:
-- Link: [Insert your cloud drive link here]
-- Content: 
-  - BEIR benchmark datasets
-  - Processed medical domain datasets
-  - Training data for Bi-Encoder model
+- Link：[[IR project](https://bhpan.buaa.edu.cn/link/AAD502EC85886C45818CF89E6957360695)]，password：nvbh
+- Content：
+  - BEIR benchmark datasets`datasets.zip`
+  - Training data for Bi-Encoder model`data.zip`
+  - results and statistic figures`results.zip`
 
-After downloading, place the datasets in the following folders:
+After downloading, unzip the files and place them in the following folders:
 ```
-datasets/
-├── beir_datasets/
-├── medical_domain/
-└── training_data/
+IR project/
+├── datasets/
+├── data/
+└── results/
 ```
 
 Alternatively, you can use `download_datasets.py` to download some public datasets.
