@@ -34,8 +34,8 @@ This project aims to improve information retrieval effectiveness in the medical 
 
 First, clone this repository:
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/zhijiancui/IR-project.git
+cd IR-project
 ```
 
 Then install the required dependencies:
@@ -67,7 +67,7 @@ Alternatively, you can use `download_datasets.py` to download some public datase
 
 ### Model Access
 The trained models can be accessed via:
-- Link: [Insert your cloud drive link here]
+- Link: [[IR project](https://bhpan.buaa.edu.cn/link/AAD502EC85886C45818CF89E6957360695)]，password：nvbh
 - Content:
   - Fine-tuned medical retriever model (`models/finetuned-medical-retriever/`)
   - Checkpoint files for different training stages
