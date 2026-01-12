@@ -53,9 +53,9 @@ pip install -r requirements.txt
 - 内容：
   - BEIR基准数据集`datasets.zip`
   - Bi-Encoder模型的训练数据`data.zip`
-  - 结果数据和分析图表`results.zip`
+  - 结果数据和统计图表`results.zip`
 
-下载后，请将解压文件并放置在以下文件夹中：
+下载后，请解压文件并放置在以下文件夹中：
 ```
 IR project/
 ├── datasets/
