@@ -34,8 +34,8 @@
 
 首先，克隆此仓库：
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/zhijiancui/IR-project.git
+cd IR-project
 ```
 
 然后安装所需的依赖项：
